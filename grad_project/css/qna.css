@@ -1,0 +1,42 @@
+#qna{
+    display: none;
+}
+
+.qBox{
+    background-color: #fff6f3;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80%;
+    color: black;  
+}
+
+.answerList{
+    background-color: #fff6f3;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    /* block이면 한줄에 하나씩 나옴 */
+    width: 80%;
+    border:0px;
+    font-size:20px;
+}
+.answerList:hover, .answerList:focus{
+
+    background-color: orange;
+    color:white;
+}
+
+.status{
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.statusBar{
+    height: 100%;
+    background-color: orange;
+    border-radius: 20px;
+}
